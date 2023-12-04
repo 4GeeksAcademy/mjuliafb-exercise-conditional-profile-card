@@ -69,7 +69,7 @@ window.onload = function() {
     includeCover: true,
     // this is the image's url that will be used as a background for the profile cover
     background:
-      "https://img.freepik.com/vector-gratis/diseno-fondo-desenfocado_1107-224.jpg?w=826&t=st=1701720236~exp=1701720836~hmac=2f0b71aa475e286fce4c822ae292f33a1b1956631108eeeb21dc0a3257494418",
+      "https://img.freepik.com/vector-gratis/textura-granulada-degradada_23-2148976750.jpg?w=1380&t=st=1701720651~exp=1701721251~hmac=5b8c6e84382644188735b9d646ee8d21776a5da8bdb6710f15be924507a6a809",
     // this is the url for the profile avatar
     avatarURL:
       "https://img.freepik.com/psd-gratis/ilustracion-3d-avatar-o-perfil-humano_23-2150671140.jpg?w=826&t=st=1701719558~exp=1701720158~hmac=21f3f72df8d55428076cb030f3fbad6251ceef812a693b1547d4dedfdfc977ab",
