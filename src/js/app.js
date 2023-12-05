@@ -36,7 +36,7 @@ function render(variables = {}) {
           <h1>${variables.name ? variables.name : "MJ"} ${
     variables.lastName ? variables.lastName : "Fernández"
   }</h1>
-          <h2>${variables.role ? variables.role : "Full Stack student"}</h2>
+          <h2>${variables.role ? variables.role : "Tech Student"}</h2>
           <h3>${variables.city ? variables.city : "Madrid"}, ${
     variables.country ? variables.country : "España"
   } </h3>
@@ -69,7 +69,7 @@ window.onload = function() {
     includeCover: true,
     // this is the image's url that will be used as a background for the profile cover
     background:
-      "https://img.freepik.com/vector-gratis/textura-granulada-degradada_23-2148976750.jpg?w=1380&t=st=1701720651~exp=1701721251~hmac=5b8c6e84382644188735b9d646ee8d21776a5da8bdb6710f15be924507a6a809",
+      "https://img.freepik.com/vector-gratis/fondo-onda-particulas-degradado_23-2150428788.jpg?w=1800&t=st=1701814263~exp=1701814863~hmac=831a48a02a53129b2fa1cda3482ef68b8f6af4ab51d6b8858f5c89b288f81270",
     // this is the url for the profile avatar
     avatarURL:
       "https://img.freepik.com/psd-gratis/ilustracion-3d-avatar-o-perfil-humano_23-2150671140.jpg?w=826&t=st=1701719558~exp=1701720158~hmac=21f3f72df8d55428076cb030f3fbad6251ceef812a693b1547d4dedfdfc977ab",

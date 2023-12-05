@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hello Rigo with Vanilla.js</title>
     <link rel="shortcut icon" href="./assets/img/4geeks.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://kit.fontawesome.com/072e5df971.js"
       crossorigin="anonymous"
@@ -16,23 +22,18 @@
       <li>
         <label>Include Cover</label>
         <select class="picker" for="includeCover">
-          <option value="">Include Cover</option>
+          <option value="">Select</option>
           <option value="true">True</option>
           <option value="false">False</option>
         </select>
       </li>
       <li>
         <label>Name</label>
-        <input class="picker" for="name" type="text" placeholder="name" />
+        <input class="picker" for="name" type="text" />
       </li>
       <li>
         <label>Last Name</label>
-        <input
-          class="picker"
-          for="lastName"
-          type="text"
-          placeholder="last name"
-        />
+        <input class="picker" for="lastName" type="text" />
       </li>
       <li>
         <label>S.M. Position</label>
@@ -61,34 +62,38 @@
         <label>Role</label>
         <select class="picker" for="role">
           <option value="">Select</option>
-          <option value="Web Developer">Web Developer</option>
           <option value="Floor Planner">Floor Planner</option>
           <option value="Technical Writter">Technical Writter</option>
+          <option value="Web Developer">Web Developer</option>
+          <option value="Tech Student">Tech Student</option>
         </select>
       </li>
       <li>
         <label>City</label>
         <select class="picker" for="city">
           <option value="">Select</option>
-          <option value="Miami">Miami</option>
-          <option value="Munich">Munich</option>
           <option value="Caracas">Caracas</option>
-          <option value="Toronto">Toronto</option>
+          <option value="Madrid">Madrid</option>
+          <option value="Dallas">Dallas</option>
+          <option value="Munich">Munich</option>
         </select>
       </li>
       <li>
         <label>Country</label>
         <select class="picker" for="country">
           <option value="">Select</option>
-          <option value="USA">USA</option>
+          <option value="España">España</option>
           <option value="Germany">Germany</option>
-          <option value="Canada">España</option>
+          <option value="USA">USA</option>
           <option value="Venezuela">Venezuela</option>
         </select>
       </li>
     </ul>
     <div id="widget_content"></div>
-
+    <p class="footer-heart">
+      Made with 🪄 by
+      <a href="https://www.linkedin.com/in/mjfbalice/">mjuliafb</a>
+    </p>
     <!-- do not remove this bundle.js tag -->
     <script type="text/javascript" src="/main.bundle.js"></script>
   </body>
